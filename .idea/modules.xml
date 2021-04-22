@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/18clc_27_doan.iml" filepath="$PROJECT_DIR$/.idea/modules/18clc_27_doan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/18clc_27_doan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/18clc_27_doan.app.iml" />
     </modules>
   </component>
 </project>
