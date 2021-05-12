@@ -15,10 +15,7 @@
         android:label="Floral"
         android:roundIcon="@drawable/floral"
         android:supportsRtl="true"
-        android:theme="@style/CameraRoll.Theme"
-        tools:replace="android:appComponentFactory"
-        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-        tools:targetApi="p">
+        android:theme="@style/CameraRoll.Theme">
         <activity android:name="com.absolute.floral.ui.FirstActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>

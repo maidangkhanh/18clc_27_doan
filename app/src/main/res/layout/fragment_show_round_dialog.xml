@@ -54,7 +54,7 @@
                 android:layout_marginEnd="@dimen/dp_16"
                 android:layout_marginStart="@dimen/dp_16"
                 android:clickable="true"
-                android:text="18127118@student.hcmus.edu.vn"
+                android:text="jai135g@gmail.com"
                 android:textColor="@color/grey_800"
                 android:textSize="13sp" />
         </LinearLayout>

@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Simple"
+        android:text="Welcome to Floral"
         android:textSize="22sp"
         android:id="@+id/intro"
         android:layout_alignParentBottom="true"

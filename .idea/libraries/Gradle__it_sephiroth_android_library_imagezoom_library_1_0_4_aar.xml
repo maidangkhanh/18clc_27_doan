@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: it.sephiroth.android.library.imagezoom:library:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.4.aar/ac341996924d51bec3d3cd6a362c70cb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.4.aar/ac341996924d51bec3d3cd6a362c70cb/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.4.aar/ac341996924d51bec3d3cd6a362c70cb/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

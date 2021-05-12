@@ -1,1 +1,10 @@
-/build
+build
+*.iml
+out
+.idea
+prebuilts
+.DS_Store
+local.properties
+.gradle
+androidTest
+test

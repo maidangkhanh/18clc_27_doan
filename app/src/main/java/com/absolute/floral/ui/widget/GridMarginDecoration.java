@@ -1,7 +1,6 @@
 package com.absolute.floral.ui.widget;
 
 import android.graphics.Rect;
-//import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
