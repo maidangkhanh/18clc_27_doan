@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.absolute.floral.ui.widget.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.gallery.ui.widget.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,4 +23,4 @@
 
         <include layout="@layout/album_title"/>
     </com.google.android.material.card.MaterialCardView>
-</com.absolute.floral.ui.widget.SquareRelativeLayout>
+</com.example.gallery.ui.widget.SquareRelativeLayout>

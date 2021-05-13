@@ -6,7 +6,7 @@
     android:id="@+id/mainl"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.absolute.floral.ui.SplashActivity">
+    tools:context="com.absolute.gallery.ui.SplashActivity">
 
     <TextView
         android:layout_width="wrap_content"

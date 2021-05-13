@@ -45,18 +45,6 @@
                 android:textColor="@color/black"
                 android:textSize="17sp" />
 
-            <TextView
-                android:id="@+id/userid"
-                android:layout_marginTop="4dp"
-                android:paddingLeft="4dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/dp_16"
-                android:layout_marginStart="@dimen/dp_16"
-                android:clickable="true"
-                android:text="jai135g@gmail.com"
-                android:textColor="@color/grey_800"
-                android:textSize="13sp" />
         </LinearLayout>
 
     </LinearLayout>

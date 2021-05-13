@@ -16,7 +16,7 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Floral"
+            android:text="Gallery"
             android:textSize="28sp"
             android:textColor="@color/ggreen"
             android:layout_marginTop="30dp"
@@ -24,16 +24,6 @@
             android:layout_gravity="center_horizontal"
             android:visibility="visible" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:gravity="center_horizontal"
-            android:text="Images Pinning Beta"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/name"
-            android:layout_marginTop="15dp"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"/>
 
 
         <ImageView

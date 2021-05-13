@@ -26,7 +26,7 @@
             android:layout_gravity="center"
             android:id="@+id/appname"
             android:textColor="#424242"
-            android:text="Floral 1.0 Beta"/>
+            android:text="Gallery 1.0 Beta"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,46 +42,5 @@
 
 
 
-        <!--<RelativeLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:gravity="center_horizontal"-->
-            <!--android:paddingBottom="20dp"-->
-
-            <!--android:layout_height="wrap_content">-->
-            <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-                <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
-                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:textSize="12sp"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:fontFamily="@font/googlefont"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:textColor="#000"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:text="Made in India with"/>&ndash;&gt;-->
-                <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_width="14dp"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_height="14dp"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_marginLeft="2dp"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:src="@drawable/heart"/>&ndash;&gt;-->
-            <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
-        <!--</RelativeLayout>-->
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:theme="@style/AppTheme.Button"
-        android:text="Rate Us"
-        android:textSize="14sp"
-        android:visibility="visible"
-        android:id="@+id/pixelbutton"
-        android:textColor="@color/white"
-        android:layout_marginTop="90dp"
-        android:layout_marginBottom="25dp"
-        android:layout_below="@+id/compname"
-        android:background="@drawable/button_style"
-        android:textAllCaps="false"
-        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

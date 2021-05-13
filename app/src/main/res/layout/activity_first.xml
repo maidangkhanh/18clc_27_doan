@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    tools:context="com.absolute.floral.ui.FirstActivity">
+    tools:context="com.absolute.gallery.ui.FirstActivity">
 <ImageView
     android:layout_width="190dp"
     android:layout_height="190dp"
@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Floral"
+        android:text="Gallery"
         android:textSize="36dp"
         android:typeface="monospace"
         android:layout_alignParentBottom="true"

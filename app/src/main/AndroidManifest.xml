@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.absolute.floral">
+    package="com.example.gallery">
     <!-- to read & write images ... -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- to set Wallpaper -->
@@ -9,14 +9,14 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name="com.absolute.floral.ui.CustomFontApp"
-        android:allowBackup="false"
+        android:name="com.example.gallery.ui.CustomFontApp"
+        android:allowBackup="true"
         android:icon="@drawable/floral"
-        android:label="Floral"
+        android:label="Gallery"
         android:roundIcon="@drawable/floral"
         android:supportsRtl="true"
         android:theme="@style/CameraRoll.Theme">
-        <activity android:name="com.absolute.floral.ui.FirstActivity"
+        <activity android:name="com.example.gallery.ui.FirstActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,59 +25,59 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.absolute.floral.ui.PinningActivity"
+            android:name="com.example.gallery.ui.PinningActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:theme="@style/SplashTheme" />
         <activity
-            android:name="com.absolute.floral.ui.LoadingActivity"
+            android:name="com.example.gallery.ui.LoadingActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="com.absolute.floral.ui.SplashActivity" />
+        <activity android:name="com.example.gallery.ui.SplashActivity" />
         <activity
-            android:name="com.absolute.floral.ui.MainActivity"
+            android:name="com.example.gallery.ui.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.Main">
 
         </activity>
         <activity
-            android:name="com.absolute.floral.ui.AlbumActivity"
+            android:name="com.example.gallery.ui.AlbumActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.Translucent.Album" />
         <activity
-            android:name="com.absolute.floral.ui.ItemActivity"
+            android:name="com.example.gallery.ui.ItemActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.PhotoView"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.absolute.floral.ui.VideoPlayerActivity"
+            android:name="com.example.gallery.ui.VideoPlayerActivity"
             android:configChanges="screenSize|smallestScreenSize|orientation|screenLayout"
             android:launchMode="singleTask"
             android:supportsPictureInPicture="true"
             android:theme="@style/CameraRoll.Theme.VideoPlayer"
             tools:targetApi="n" />
         <activity
-            android:name="com.absolute.floral.ui.SettingsActivity"
+            android:name="com.example.gallery.ui.SettingsActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.Settings" />
         <activity
-            android:name="com.absolute.floral.ui.FileExplorerActivity"
+            android:name="com.example.gallery.ui.FileExplorerActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.Translucent.FileExplorer" />
         <activity
-            android:name="com.absolute.floral.ui.FileOperationDialogActivity"
+            android:name="com.example.gallery.ui.FileOperationDialogActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.Translucent.FileOperationDialog" />
         <activity
-            android:name="com.absolute.floral.ui.ExifEditorActivity"
+            android:name="com.example.gallery.ui.ExifEditorActivity"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.ExifEditor"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.absolute.floral.ui.EditImageActivity"
+            android:name="com.example.gallery.ui.EditImageActivity"
             android:label="@string/edit"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.EditImage" />
         <activity
-            android:name="com.absolute.floral.ui.SetWallpaperActivity"
+            android:name="com.example.gallery.ui.SetWallpaperActivity"
             android:label="@string/wallpaper"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -91,16 +91,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.absolute.floral.ui.ExcludePathsActivity"
+            android:name="com.example.gallery.ui.ExcludePathsActivity"
             android:label="@string/excluded_paths"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.ExcludePaths" />
         <activity
-            android:name="com.absolute.floral.ui.VirtualAlbumsActivity"
+            android:name="com.example.gallery.ui.VirtualAlbumsActivity"
             android:label="@string/virtual_albums"
             android:launchMode="singleTop"
             android:theme="@style/CameraRoll.Theme.VirtualDirectories" />
-        <activity android:name="com.absolute.floral.IntentReceiver">
+        <activity android:name="com.example.gallery.IntentReceiver">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
 
@@ -154,19 +154,19 @@
         </provider>
 
         <service
-            android:name="com.absolute.floral.data.fileOperations.Copy"
+            android:name="com.example.gallery.data.fileOperations.Copy"
             tools:ignore="InnerclassSeparator" />
         <service
-            android:name="com.absolute.floral.data.fileOperations.Delete"
+            android:name="com.example.gallery.data.fileOperations.Delete"
             tools:ignore="InnerclassSeparator" />
         <service
-            android:name="com.absolute.floral.data.fileOperations.Move"
+            android:name="com.example.gallery.data.fileOperations.Move"
             tools:ignore="InnerclassSeparator" />
         <service
-            android:name="com.absolute.floral.data.fileOperations.NewDirectory"
+            android:name="com.example.gallery.data.fileOperations.NewDirectory"
             tools:ignore="InnerclassSeparator" />
         <service
-            android:name="com.absolute.floral.data.fileOperations.Rename"
+            android:name="com.example.gallery.data.fileOperations.Rename"
             tools:ignore="InnerclassSeparator" />
     </application>
 
