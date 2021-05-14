@@ -11,9 +11,8 @@
     <application
         android:name="com.example.gallery.ui.CustomFontApp"
         android:allowBackup="true"
-        android:icon="@drawable/floral"
         android:label="Gallery"
-        android:roundIcon="@drawable/floral"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/CameraRoll.Theme">
         <activity android:name="com.example.gallery.ui.FirstActivity"
